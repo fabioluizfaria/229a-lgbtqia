@@ -1,0 +1,233 @@
+.corpo {
+    font-family: 'Roboto Condensed';
+}
+
+.cabecalho {
+    margin-top: 5%;
+    margin: 5% 8% 8% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#texto {
+    margin-right: 10%;
+}
+
+.titulo {
+    display: inline;
+    font-size: 550%;
+    font-weight: bold;
+    -webkit-text-stroke: 3px black;
+}
+
+#l {
+    color: #ff6571;
+}
+
+#g {
+    color: #ff9c2f;
+}
+
+#b {
+    color: #ffd700;
+}
+
+#t {
+    color: #2fc92f;
+}
+
+#q {
+    color: #0079e9;
+}
+
+#i {
+    color: #803baa;
+}
+
+#a {
+    color: #D745F0;
+}
+
+#mais {
+    color: white;
+}
+
+#descricao {
+    font-weight: lighter;
+    font-size: 200%;
+    margin-top: 5%;
+}
+
+#img-notebook {
+    width: 40%;
+}
+
+.principal {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0 8%;
+}
+
+#prjt-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#prjt-links li:nth-child(10) {
+    margin: auto;
+}
+
+.prjt {
+    font-size: 200%;
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    border: solid 3px black;
+    margin-bottom: 5%;
+    padding-top: 1%;
+}
+
+#lilas {
+    background-color: #D745F0;
+}
+
+#amarelo {
+    background-color: #ffd700;
+}
+
+#laranja {
+    background-color: #ff9c2f;
+}
+
+#azul {
+    background-color: #0079e9;
+}
+
+#vermelho {
+    background-color: #ff6571;
+}
+
+#verde {
+    background-color: #2fc92f;
+}
+
+#roxo {
+    background-color: #803baa;
+}
+
+#azulzinho {
+    background-color: #4EC6E0;
+}
+
+#amarelinho {
+    background-color: #FFF856;
+}
+
+#verdao {
+    background-color: #12B935;
+}
+
+.img-prjt {
+    width: 90%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#verdao a h2 {
+    margin-bottom: 10%;
+}
+
+#vermelho a h2 {
+    margin-bottom: 10%;
+}
+
+#verde a h2 {
+    margin-bottom: 5%;
+}
+
+#amarelo a h2 {
+    margin-bottom: 20%;
+}
+
+#amarelinho a h2 {
+    margin-bottom: 5%;
+}
+
+.rodape {
+    margin-top: 2%;
+}
+
+#img-rodape {
+    width: 100%;
+}
+
+#lista-rodape {
+    margin: 0.5% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+    color: #8C7A7A;
+}
+
+#logoIFMS {
+    width: 80%;
+}
+
+/* ------------------ mobile ------------------*/
+@media screen and (max-width: 768px){
+
+    .cabecalho {
+        margin: 5% 5% 8% 5%;
+    }
+
+    #texto {
+        margin-right: 5%;
+    }
+
+    .titulo {
+        font-size: 210%;
+        -webkit-text-stroke: 1px black;
+    }
+
+    #descricao {
+        font-size: 100%;
+    }
+
+    .principal {
+        margin: 0 5%;
+    }
+
+    #prjt-links li:nth-child(10) {
+        margin: 0;
+        margin-bottom: 5%;        
+    }
+    
+    .prjt {
+        font-size: 90%;
+        border-radius: 10px;
+        border: solid 2px black;
+        width: 47%;
+    }
+
+    #lista-rodape {
+        font-size: 70%;
+        text-align: center;
+    }
+
+    #lista-rodape li {
+        width: 50%;
+    }
+    
+    #logoIFMS {
+        width: 100%;
+    }
+
+}
